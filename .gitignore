@@ -1,0 +1,16 @@
+# Ignore the large image dataset
+dataset/
+archive*/
+*.zip
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+env/
+.env                
+
+# (Notice we are NOT ignoring the model/ folder, because Streamlit needs the .keras file to make predictions!)
